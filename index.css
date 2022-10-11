@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,400&display=swap');
+
+:root {
+  --onhover: rgb(255, 162, 0);
+  --btn: rgb(162, 34, 34);
+  --light: white;
+  --dark: black;
+  --inp: rgb(22, 114, 29);
+  --links:blue;
+  
+}
+body {
+  margin: 0;
+  padding: 10px;
+  font-family:'Poppins', sans-serif;
+  border: dotted white 1px;
+
+  
+  min-width: 400px;
+  background-color: black;
+}
+#input-btn,
+#tab-btn {
+    font-size: 1rem;
+  background-color: var(--inp);
+  color: var(--light);
+  padding: 5px 10px;
+  border: solid white 1px;
+  /* font-weight: bold; */
+  
+}
+#delete-btn {
+    font-size: 1rem;
+  background-color: var(--btn);
+  color: var(--light);
+  padding: 5px 10px;
+  border: solid white 1px;
+
+}
+#input-btn:hover,
+#delete-btn:hover,
+#tab-btn:hover {
+  background-color: var(--onhover);
+  color: var(--dark);
+}
+#input-el {
+    font-size: 1rem;
+  border: 1px solid var(--light);
+  background-color: rgba(0, 0, 0, 0.43);
+  box-sizing: border-box;
+  color:var(--light);
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px 10px;
+}
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  color: var(--dark);
+  
+  margin-top: 5px;
+}
+a{
+    font-size: 1rem;
+    color: var(--light);
+}
+a:hover{
+    color: var(--onhover);
+    
+}
